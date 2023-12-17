@@ -1,5 +1,5 @@
 
-import TaskList from './TaskList';
+import TaskList from './componentes/TaskList';
 
 function Task ({ name, completed }){
   return (

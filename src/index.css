@@ -15,7 +15,7 @@ body {
   text-align: center; /* Centra el contenido horizontalmente */
   border: 2px solid #ccc;
   border-radius: 10px;
-  padding: 20px;
+  padding: -1px 20px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -70,6 +70,3 @@ input {
 }
 
 /* Estilos para la sección de agregar tarea */
-.add-task-section {
-  margin-top: 20px;
-}

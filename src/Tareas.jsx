@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const MyReactTaskList = () => {
+const Tareas = () => {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState({ title: '', description: '', completed: false });
   const [editingTask, setEditingTask] = useState(null);
@@ -109,4 +109,4 @@ const MyReactTaskList = () => {
   );
 };
 
-export default MyReactTaskList;
+export default Tareas;
